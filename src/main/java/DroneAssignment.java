@@ -11,7 +11,6 @@ public class DroneAssignment {
 
         displayAltitude += 20;
         batteryRounded -= 15;
-        photos += 3;
         displayAltitude /= 2;
         photos %= 4;
 
