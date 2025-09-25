@@ -20,6 +20,7 @@ public class DroneAssignment {
         System.out.println("Altitude: " + altitude + " meters");
         System.out.println("Battery: " + battery + "%");
         System.out.println("Photos: " + photos);
+        photos += 3;
         System.out.println("Storage slots used: " + photos + " out of 4");
         System.out.println();
         System.out.println("Display Altitude: " + displayAltitude);
