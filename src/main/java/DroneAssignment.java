@@ -9,10 +9,10 @@ public class DroneAssignment {
         int displayAltitude = (int) altitude;
         int batteryRounded = (int) battery;
 
-        altitude += 20;
-        battery -= 15;
-        photos =+ 3;
-        altitude /= 2;
+        displayAltitude += 20;
+        batteryRounded -= 15;
+        photos += 3;
+        displayAltitude /= 2;
 
         System.out.println("=== Drone Flight Simulation ===");
         System.out.println("Initial Status:");
